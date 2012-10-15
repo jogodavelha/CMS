@@ -1,0 +1,15 @@
+/* TEAM */
+  ET: Diego Assunção
+  Site: http://jogodavelhadigital.com.br
+  Twitter: @dassuncaop
+  Facebook: /dassuncaop
+  Location: Goiania, Goias, Brazil
+
+/* THANKS */
+  Initializr: http://initializr.com
+
+/* SITE */
+  Standards: HTML5, CSS3, Initializr
+  Components: Modernizr, jQuery
+  Software: NetBeans
+  Back-end: DAPCMS

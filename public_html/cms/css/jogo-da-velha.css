@@ -1,0 +1,26 @@
+body#login {
+    background: url("../img/jv-login_bg.png") repeat scroll 0 0 transparent;
+}
+
+.button.blue {
+    background: url("../img/jv-buttonblue_bg.png") repeat-x scroll 0 0 #F26522;
+    border: 1px solid #F1580E;
+}
+.button.blue:hover {
+    background-color: #F26522;
+}
+
+nav#secondary ul li.active a {
+  background-color: #497eac;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(245, 139, 88)), to(rgb(242, 101, 34)));
+  background-image: -webkit-linear-gradient(top, rgb(245, 139, 88), rgb(242, 101, 34));
+  background-image: -moz-linear-gradient(top, rgb(245, 139, 88), rgb(242, 101, 34));
+  background-image: -o-linear-gradient(top, rgb(245, 139, 88), rgb(242, 101, 34));
+  background-image: -ms-linear-gradient(top, rgb(245, 139, 88), rgb(242, 101, 34));
+  background-image: linear-gradient(top, rgb(245, 139, 88), rgb(242, 101, 34));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F58B58', EndColorStr='#F26522');
+  border-bottom: 1px solid #F26522;
+  border-top: 1px solid #F26522;
+  color: #fff;
+  text-shadow: 0 1px 0 #000000;
+}

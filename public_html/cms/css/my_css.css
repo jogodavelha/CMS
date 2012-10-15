@@ -1,0 +1,103 @@
+/* 
+    Document   : my_css
+    Created on : 23/05/2012, 12:01:50
+    Author     : Pagu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#visualsite { 
+    height: 20px;
+    position: absolute;
+    right: 28px;
+    top: 13px;
+}
+
+#visualsite span{
+    margin-right: 10px;
+}
+
+#alerta{
+    background:url("../img/error2.png") no-repeat scroll 14px 14px #FFF8D8;
+    border:1px solid #F3D97E;
+    color:#A68510;
+}
+
+#sucesso{
+    background:url("../img/accept.png") no-repeat scroll 14px 14px #EBF9E2;
+    border:1px solid #BEE4A5;
+    color:#658C2C;
+}
+
+.albox {
+    border-radius:3px 3px 3px 3px;
+    box-shadow:0 1px 0 #F7F7F7;
+    font-size:12px;
+    line-height:17px;
+    margin:15px 0;
+    padding:14px 42px;
+    position:absolute;
+    right:16px;
+    top:0;
+    width:250px;
+    z-index:1;
+}
+
+.albox .close {
+    background:url("../img/close-opacity-21.png") no-repeat scroll center center transparent;
+    display:block;
+    height:30px;
+    position:absolute;
+    right:0;
+    text-indent:-9999px;
+    top:0;
+    width:30px;
+}
+
+#main {
+    padding: 30px 0 0 13px;
+}
+
+/* 
+    Document   : navegacao
+    Created on : 03/02/2012, 06:40:27
+    Author     : Adm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.lista-links {
+    background-color:#efeff6; float:left; height: 38em; border-right: 2px dotted #ddd; overflow:auto; width: 100%;
+}
+
+.lista-links ol li{ list-style-type: none;}
+.lista-links ol {
+    background: none repeat scroll 0 0 transparent;
+    list-style-type: none;
+    margin-left: 0 !important;
+}
+.lista-links a { text-decoration: none; font-size: 13px; color:#5c5b5b; padding: 1px 1px 1px 15px; background: url('../img/off.png') no-repeat left; }
+.lista-links a:hover { text-decoration: underline; }
+.lista-links a.selected { color: black; background: url('../img/on.png') no-repeat left; }
+
+/* Sortable CSS */
+.ui-nestedSortable-error { background:#fbe3e4; color:#8a1f11; }
+
+.lista-links ol { margin: 0; padding: 0; }
+.lista-links ol.sortable,.lista-links  ol.sortable ol { margin: 0 0 0 25px; padding: 0; list-style-type: none; cursor: default; }
+.lista-links ol.sortable { margin: 2em; }
+
+.lista-links ol li ol li { list-style: none outside none; }
+
+.lista-links .sortable li { margin: 5px 0; padding-left: 20px; }
+.lista-links .sortable li div  { padding: 3px 1px 3px 10px; margin: 0; cursor: move; background-color: #d1d1d1; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
+.lista-links .sortable li div:hover { background-color: #dbdbdb; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
+.lista-links .sortable li.placeholder { background-color: #c2c0c0; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin-left: 20px; }
+
+.lista-links .plus { background: url('../img/more.png') no-repeat 0 3px; }
+.lista-links .minus { background: url('../img/less.png') no-repeat 0 10px; }
